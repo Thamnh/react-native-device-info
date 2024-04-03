@@ -134,5 +134,8 @@
       "module",
       "typescript"
     ]
+  },
+  "dependencies": {
+    "react-native-device-info": "^10.13.1"
   }
 }
