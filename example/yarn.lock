@@ -8517,9 +8517,10 @@ react-native-codegen@^0.0.8:
     jscodeshift "^0.11.0"
     nullthrows "^1.1.1"
 
-"react-native-device-info@github:react-native-device-info/react-native-device-info":
-  version "8.4.9"
-  resolved "https://codeload.github.com/react-native-device-info/react-native-device-info/tar.gz/a027b42692e05cfa8bc536a5eda529144bd8f117"
+react-native-device-info@8.7.1:
+  version "8.7.1"
+  resolved "https://registry.yarnpkg.com/react-native-device-info/-/react-native-device-info-8.7.1.tgz#fbb06f87dbbc4423abe713874699fb2e6e99fd15"
+  integrity sha512-cVMZztFa2Qn6qpQa601W61CtUwZQ1KXfqCOeltejAWEXmgIWivC692WGSdtGudj4upSi1UgMSaGcvKjfcpdGjg==
 
 react-native-windows@0.67.3:
   version "0.67.3"
