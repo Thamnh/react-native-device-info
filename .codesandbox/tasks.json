@@ -1,0 +1,128 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "analyze": {
+      "name": "analyze",
+      "command": "yarn analyze",
+      "runAtStart": false
+    },
+    "flow-check": {
+      "name": "flow-check",
+      "command": "yarn flow-check",
+      "runAtStart": false
+    },
+    "ts-check": {
+      "name": "ts-check",
+      "command": "yarn ts-check",
+      "runAtStart": false
+    },
+    "clean": {
+      "name": "clean",
+      "command": "yarn clean",
+      "runAtStart": false
+    },
+    "dev-sync": {
+      "name": "dev-sync",
+      "command": "yarn dev-sync",
+      "runAtStart": false
+    },
+    "dev-sync-windows": {
+      "name": "dev-sync-windows",
+      "command": "yarn dev-sync-windows",
+      "runAtStart": false
+    },
+    "lint": {
+      "name": "lint",
+      "command": "yarn lint",
+      "runAtStart": false
+    },
+    "shipit": {
+      "name": "shipit",
+      "command": "yarn shipit",
+      "runAtStart": false
+    },
+    "example:install": {
+      "name": "example:install",
+      "command": "yarn example:install",
+      "runAtStart": false
+    },
+    "example:install-windows": {
+      "name": "example:install-windows",
+      "command": "yarn example:install-windows",
+      "runAtStart": false
+    },
+    "example:install:pods": {
+      "name": "example:install:pods",
+      "command": "yarn example:install:pods",
+      "runAtStart": false
+    },
+    "example:android": {
+      "name": "example:android",
+      "command": "yarn example:android",
+      "runAtStart": false
+    },
+    "example:android:build": {
+      "name": "example:android:build",
+      "command": "yarn example:android:build",
+      "runAtStart": false
+    },
+    "example:ios": {
+      "name": "example:ios",
+      "command": "yarn example:ios",
+      "runAtStart": false
+    },
+    "example:ios:build": {
+      "name": "example:ios:build",
+      "command": "yarn example:ios:build",
+      "runAtStart": false
+    },
+    "example:windows": {
+      "name": "example:windows",
+      "command": "yarn example:windows",
+      "runAtStart": false
+    },
+    "example:packager": {
+      "name": "example:packager",
+      "command": "yarn example:packager",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "yarn test",
+      "runAtStart": false
+    },
+    "precommit": {
+      "name": "precommit",
+      "command": "yarn precommit",
+      "runAtStart": false
+    },
+    "build": {
+      "name": "build",
+      "command": "yarn build",
+      "runAtStart": false
+    },
+    "prepare": {
+      "name": "prepare",
+      "command": "yarn prepare",
+      "runAtStart": false
+    },
+    "ci:install": {
+      "name": "ci:install",
+      "command": "yarn ci:install",
+      "runAtStart": false
+    },
+    "ci:shipit": {
+      "name": "ci:shipit",
+      "command": "yarn ci:shipit",
+      "runAtStart": false
+    }
+  }
+}
